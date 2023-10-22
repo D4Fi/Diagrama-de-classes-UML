@@ -3,4 +3,4 @@ Os símbolos de diagrama de classe UML pré-desenhados representam classe, class
 
 
 
-![Logo do Markdown](img/markdown.png)
+![Logo do Markdown](uml.png)
