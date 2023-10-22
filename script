@@ -1,0 +1,45 @@
+#!/usr/bin/python3
+
+class Automovel:
+    cambio: int
+
+    def aumentar_marcha() -> None:
+        pass
+
+class Cambio(Automovel):
+    marcha: int
+
+    @property
+    def marcha(self) -> int:
+        return self.marcha
+
+    @marcha.setter
+    def marcha(self, nova_marcha: int):
+        self.marcha = nova_marcha
+
+class Manual(Automovel):
+    embreagem: bool
+
+    def Manual():
+        pass
+
+    def pisar_na_embreagem() -> None:
+        pass
+
+    def solta_embreagem() -> None:
+        pass
+
+    def acelerar(rpm: int) -> None:
+        pass
+
+
+
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    pass
